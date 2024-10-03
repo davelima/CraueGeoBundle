@@ -19,9 +19,9 @@
 		"php": "^7.3|^8",
 		"doctrine/doctrine-bundle": "^1.6.12|^2",
 		"doctrine/orm": "^2.5.2",
-		"symfony/config": "~4.4|~5.3|^6",
-		"symfony/dependency-injection": "~4.4|~5.3|^6",
-		"symfony/framework-bundle": "~4.4|~5.3|^6"
+		"symfony/config": "~4.4|~5.3|^6|^7",
+		"symfony/dependency-injection": "~4.4|~5.3|^6|^7",
+		"symfony/framework-bundle": "~4.4|~5.3|^6|^7"
 	},
 	"require-dev": {
 		"doctrine/annotations": "^1.6",
@@ -52,10 +52,10 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "1.9.x-dev"
+			"dev-master": "2.0.x-dev"
 		},
 		"symfony": {
-			"require": "~4.4|~5.3|^6"
+			"require": "~4.4|~5.3|^6|^7"
 		}
 	},
 	"config": {
